@@ -24,3 +24,13 @@ while num>0 :
     num = num//10
 print(rev)
 
+
+#!
+
+n = 10
+for i in range(1,n):
+    rem = i*(i+1)//2
+    print(rem)
+i=i+1
+
+
