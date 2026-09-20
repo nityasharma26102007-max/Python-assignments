@@ -40,5 +40,18 @@ print(F)
 K=(celsius+273.15)
 print(K)
 
+# shree aradhya charya 
+
+
+
+
+a = int(input("a"))
+b = int(input("b"))
+c = int(input("c"))
+D = (b**2)-(4*a*c)
+root1 = -b + (D**2)/2*a
+root2 = -b - (D**2)/2*a
+print("root1 = ", root1)
+print("root2 = ", root2)
 
     
