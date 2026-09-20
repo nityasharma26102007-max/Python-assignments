@@ -5,3 +5,7 @@ for i in range(1,11):
     i+=1
 
 #cube root
+i=1
+for i in range(1,11):
+    print(i,'**3','=',i**3)
+    i+=1
