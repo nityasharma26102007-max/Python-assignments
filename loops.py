@@ -40,6 +40,31 @@ for i in range(45,n+1):
     rem = i**3
     print(rem)
 i=i+1
+
+#scrapping
+
+exp =[
+    {
+    "experiment ":"exp1",
+    "reading ":(10,20,20,30),
+    "status ":{"valid"}
+    },
+    {
+        "experiment ":"exp2",
+        "reading ":(5,5,10),
+        "status ":{"outerlier","retry"}
+        },
+        {
+            "experiment ":"exp3",
+            "reading ":(40,50,50,60),
+            "status":{"valid","retry"}
+            }
+    ]
+for e in exp:
+    e["reading "]=tuple(dict.fromkeys(e["reading "]))
+print("Updated readings .")
+for e in exp:
+    print(e["reading "])
     
 
 
