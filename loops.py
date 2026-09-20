@@ -33,4 +33,14 @@ for i in range(1,n):
     print(rem)
 i=i+1
 
+#write a program to print cube series from 45 to 57.
+n1=45
+n=57
+for i in range(45,n+1):
+    rem = i**3
+    print(rem)
+i=i+1
+    
+
+
 
